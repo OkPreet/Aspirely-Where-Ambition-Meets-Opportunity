@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-base bg-gray-50;
+  }
+
+  body {
+    @apply bg-gray-50 min-h-screen;
+  }
+
+  /* Responsive typography classes */
+  .text-responsive {
+    @apply text-xs sm:text-sm md:text-base;
+  }
+
+  .text-responsive-lg {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+
+  .text-responsive-xl {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+
+  .text-responsive-2xl {
+    @apply text-lg sm:text-xl md:text-2xl;
+  }
+
+  .text-responsive-3xl {
+    @apply text-xl sm:text-2xl md:text-3xl;
+  }
+
+  .text-responsive-4xl {
+    @apply text-2xl sm:text-3xl md:text-4xl;
+  }
+
+  /* Heading styles */
+  h1 {
+    @apply text-responsive-4xl font-bold;
+  }
+
+  h2 {
+    @apply text-responsive-3xl font-semibold;
+  }
+
+  h3 {
+    @apply text-responsive-2xl font-semibold;
+  }
+
+  h4 {
+    @apply text-responsive-xl font-medium;
+  }
+
+  h5 {
+    @apply text-responsive-lg font-medium;
+  }
+
+  h6 {
+    @apply text-responsive font-medium;
+  }
+
+  /* Paragraph styles */
+  p {
+    @apply text-responsive leading-relaxed;
+  }
+
+  /* Small text */
+  .text-small {
+    @apply text-[11px] sm:text-xs md:text-sm;
+  }
+
+  /* Large text */
+  .text-large {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 
