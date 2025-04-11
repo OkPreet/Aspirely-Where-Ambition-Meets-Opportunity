@@ -1,7 +1,9 @@
 {
   "/home/page": "app/home/page.js",
-  "/profile/page": "app/profile/page.js",
   "/settings/page": "app/settings/page.js",
-  "/career-advisor/page": "app/career-advisor/page.js",
-  "/page": "app/page.js"
+  "/profile/page": "app/profile/page.js",
+  "/page": "app/page.js",
+  "/network/page": "app/network/page.js",
+  "/notifications/page": "app/notifications/page.js",
+  "/career-advisor/page": "app/career-advisor/page.js"
 }
